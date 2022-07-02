@@ -942,6 +942,10 @@ footer {
     .container {
         width: min(56.5rem, 100%);
     }
+    
+    .banner {
+        height: 95rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -996,6 +1000,7 @@ footer {
 
     .banner {
         padding-top: 16rem;
+        height: 87rem;
     }
 
     .banner-box {
