@@ -956,17 +956,13 @@ footer {
     /* ========== NAV ========== */
 
     nav * {
-        position: initial;
         visibility: initial;
         overflow-y: initial;
     }
-
-    nav .box-nav-icon {
+    
+    #navigation {
         display: flex;
         align-items: center;
-    }
-
-    #navigation {
         margin-right: 0;
     }
 
@@ -980,16 +976,10 @@ footer {
         position: initial;
         width: 100%;
         height: initial;
-        background-color: transparent;
-
     }
 
     #navigation ul li:last-child {
         padding-block: 0;
-    }
-
-    nav .social-media {
-        display: flex;
     }
 
     #navigation.active > ul {
