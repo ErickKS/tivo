@@ -13,8 +13,10 @@ btnMobile.addEventListener('touchstart', toggleMenu)
 
 // CLOSE NAV ON CLICK UL -> A 
 
-function closeNav() {
-    nav.classList.toggle('active')
+for (const navLink of document.querySelectorAll('.navLink')) { 
+    navLink.addEventListener('click',() => {
+        nav.classList.toggle('active')
+    })  
 }
 
 // SCROLL NAV EFFECT
